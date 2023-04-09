@@ -2,6 +2,7 @@
 University project for Theoretical computer science.
 
 # Convert.py Usage
+## Input:
 - Integer n for number of states.
 - (n-1) lines, each line corresponding to each state:
   - m (a0 b0 s a1 b1 dir1 dir2):
@@ -14,6 +15,7 @@ University project for Theoretical computer science.
 
 # Symulate.py Usage
 Simulate a single tape turing machine.
+## Input:
 - Integer n for number of states.
 - (n-1) lines, each line corresponding to each state:
   - m (a0 s a1 dir):
@@ -23,4 +25,5 @@ Simulate a single tape turing machine.
       - s : state to transition to.
       - a1 : symbol to write.
       - dir : direction for the tape.
+ - Word (consisting of 0s and 1s) for the machine to process.
 
