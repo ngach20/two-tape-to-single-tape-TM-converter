@@ -16,7 +16,7 @@ University project for Theoretical computer science.
 Simulate a single tape turing machine.
 - Integer n for number of states.
 - (n-1) lines, each line corresponding to each state:
-  -m (a0 s a1 dir):
+  - m (a0 s a1 dir):
    - m : number of transitions from the given state.
     - for one transition:
       - a0 : symbol to read.
